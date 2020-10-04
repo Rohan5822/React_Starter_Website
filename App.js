@@ -18,7 +18,9 @@ const App = () => {
     <div>
       
       <h1>This  is a simple project trying to use rest api created in django</h1>
+    <h2>This project displays all the entries in the database managed by django restframework</h2>
       <div>
+        <h2>All the Items in the BlogList are: </h2>
         <ul>
         {val.map((item) => {
          return( <li>{item.title} -  {item.desc}</li>)
