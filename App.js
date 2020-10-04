@@ -23,7 +23,7 @@ const App = () => {
         <h2>All the Items in the BlogList are: </h2>
         <ul>
         {val.map((item) => {
-         return( <li>{item.title} -  {item.desc}</li>)
+         return( <li>Item Title: {item.title} -  Item Desciprtion: {item.desc}</li>)
         })}
         </ul>
       </div>
